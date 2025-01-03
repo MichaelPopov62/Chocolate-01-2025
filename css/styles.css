@@ -78,9 +78,6 @@ a {
   border-radius: 30px;
   background-image: url(../images/dark-bg.png);
   background-image: url(../images/chocolate-covered.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .title {
