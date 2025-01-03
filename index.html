@@ -4,30 +4,65 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chocolate</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="#">SIMPLY CHOCOLATE</a>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">How it’s made?</a></li>
-          <li><a href="">Chocolate is loved</a></li>
-        </ul>
-      </nav>
+    <header class="header">
+      <div class="container">
+        <nav class="header-nav">
+          <a class="header-link" href="#"
+            ><span class="logo-part">SIMPLY</span> CHOCOLATE <span></span
+          ></a>
+
+          <ul class="header-list">
+            <li class="header-item"><a class="item-link" href="">Home</a></li>
+            <li class="header-item">
+              <a class="item-link" href="">How it’s made?</a>
+            </li>
+            <li class="header-item">
+              <a class="item-link" href="">Chocolate is loved</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-      <section>
-        <h1>
-          Treat yourself or a loved one to our finest ingredients for a moment
-          of pure delight!
-        </h1>
-        <button type="button">Buy now</button>
-        <a href="#made">How it’s made</a>
-        <a href="#benefits">scroll down <span>bbb</span></a>
+      <section class="hero">
+        <div class="hero-container">
+          <h1 class="title">
+            Treat yourself or a loved one to our finest ingredients for a moment
+            of pure delight!
+          </h1>
+
+          <div class="hero-btns">
+            <div class="btn-list">
+              <button class="btn" type="button">Buy now</button>
+              <a class="btn-link" href="#made">How it’s made</a>
+            </div>
+            <a class="btn-scroll" href="#benefits"
+              >scroll down <span></span>
+            </a>
+          </div>
+        </div>
       </section>
 
-      <section id="benefits">
+      <section id="benefits" hidden>
         <h2 hidden>benefits</h2>
         <ul>
           <li>
@@ -60,7 +95,7 @@
           </li>
         </ul>
       </section>
-      <section class="ingredients">
+      <section class="ingredients" hidden>
         <h2>IT ALL ADDS UP TO ONE EXCEPTIONAL <span>TASTE</span> SENSATION</h2>
         <p>
           At Simply Chocolate, we believe that the secret to exceptional
@@ -87,7 +122,7 @@
           </li>
         </ul>
       </section>
-      <section id="made">
+      <section id="made" hidden>
         <h2>hOW IT’S made?</h2>
         <img
           src="./images/content-picture.png"
@@ -128,7 +163,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section hidden>
         <h2>chocolate is loved</h2>
         <ul>
           <li>
@@ -176,7 +211,7 @@
         <button type="button">Leave a review</button>
       </section>
     </main>
-    <footer>
+    <footer hidden>
       <p>Chocolate a delicious cure for a bad day</p>
       <ul>
         <li><a href="tel:+380684439426">+380 (68) 443-94-26</a></li>
