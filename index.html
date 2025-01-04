@@ -25,18 +25,20 @@
   <body>
     <header class="header">
       <div class="container">
+        <!--nav>a+ul>li*3>a-->
         <nav class="header-nav">
           <a class="header-link" href="#"
-            ><span class="logo-part">SIMPLY</span> CHOCOLATE <span></span
-          ></a>
+            ><span class="logo-part">SIMPLY</span> CHOCOLATE
+            <span class="icons">5</span></a
+          >
 
           <ul class="header-list">
             <li class="header-item"><a class="item-link" href="">Home</a></li>
             <li class="header-item">
-              <a class="item-link" href="">How it’s made?</a>
+              <a class="item-link" href="#made">How it’s made?</a>
             </li>
             <li class="header-item">
-              <a class="item-link" href="">Chocolate is loved</a>
+              <a class="item-link" href="#loved">Chocolate is loved</a>
             </li>
           </ul>
         </nav>
@@ -44,20 +46,20 @@
     </header>
     <main>
       <section class="hero">
-        <div class="hero-container">
-          <h1 class="title">
-            Treat yourself or a loved one to our finest ingredients for a moment
-            of pure delight!
-          </h1>
+        <div class="container hero-container">
+          <div class="container-title">
+            <h1 class="title">
+              Treat yourself or a loved one to our finest ingredients for a
+              moment of pure delight!
+            </h1>
+          </div>
 
           <div class="hero-btns">
             <div class="btn-list">
               <button class="btn" type="button">Buy now</button>
               <a class="btn-link" href="#made">How it’s made</a>
             </div>
-            <a class="btn-scroll" href="#benefits"
-              >scroll down <span></span>
-            </a>
+            <a class="btn-scroll" href="#benefits">scroll down </a>
           </div>
         </div>
       </section>
@@ -105,19 +107,39 @@
         </p>
         <ul>
           <li>
-            <img src="./images/chocolate.png" alt="mILK CHOCOLATE" />
+            <img
+              src="./images/chocolate.png"
+              width="206"
+              height="160"
+              alt="mILK CHOCOLATE"
+            />
             <h3>mILK CHOCOLATE</h3>
           </li>
           <li>
-            <img src="./images/buttle.png" alt="Milk" />
+            <img
+              src="./images/buttle.png"
+              width="206"
+              height="160"
+              alt="Milk"
+            />
             <h3>Milk</h3>
           </li>
           <li>
-            <img src="./images/walnut.png" alt="nuts" />
+            <img
+              src="./images/walnut.png"
+              width="206"
+              height="160"
+              alt="nuts"
+            />
             <h3>nuts</h3>
           </li>
           <li>
-            <img src="./images/coffee-beans.png" alt="sEMI - SWEET CHOCOLATE" />
+            <img
+              src="./images/coffee-beans.png"
+              width="206"
+              height="160"
+              alt="sEMI - SWEET CHOCOLATE"
+            />
             <h3>sEMI - SWEET CHOCOLATE</h3>
           </li>
         </ul>
@@ -163,7 +185,7 @@
           </li>
         </ul>
       </section>
-      <section hidden>
+      <section id="loved" hidden>
         <h2>chocolate is loved</h2>
         <ul>
           <li>
@@ -213,19 +235,21 @@
     </main>
     <footer hidden>
       <p>Chocolate a delicious cure for a bad day</p>
-      <ul>
-        <li><a href="tel:+380684439426">+380 (68) 443-94-26</a></li>
-        <li>
-          <a href="mailto:simplycthаoc@gmail.com">simplycthаoc@gmail.com</a>
-        </li>
-      </ul>
+      <p>Contact us</p>
+      <address>
+        <ul>
+          <li><a href="tel:+380684439426">+380 (68) 443-94-26</a></li>
+          <li>
+            <a href="mailto:simplycthаoc@gmail.com">simplycthаoc@gmail.com</a>
+          </li>
+        </ul>
+      </address>
       <hr />
       <nav>
-        <a href="#">SIMPLY CHOCOLATE</a>
         <ul>
           <li><a href="">Home</a></li>
-          <li><a href="">How it’s made?</a></li>
-          <li><a href="">Chocolate is loved</a></li>
+          <li><a href="#made">How it’s made?</a></li>
+          <li><a href="#loved">Chocolate is loved</a></li>
         </ul>
       </nav>
     </footer>
