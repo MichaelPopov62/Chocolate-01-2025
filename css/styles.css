@@ -33,12 +33,17 @@ button {
 }
 /*common*/
 .container {
-  max-width: 1168px;
-  padding: 0 16px;
-  margin: 0 auto;
+  max-width: 1188px;
+  padding: 0 28px;
+  margin: 0;
 }
 
 /*header*/
+.container {
+  max-width: 1188px;
+  padding: 0 28px;
+  margin: 0 auto;
+}
 
 .logo-part {
   font-style: italic;
@@ -72,6 +77,7 @@ button {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-left: auto;
+  margin-right: 156px;
 }
 .item-link {
   font-family: "Montserrat", serif;
@@ -81,10 +87,16 @@ button {
   letter-spacing: -0.02em;
   color: #111;
 }
+.network {
+  display: flex;
+  gap: 18px;
+}
+
 /*hero*/
 .container {
-  max-width: 1136px;
-  padding: 0 32px;
+  max-width: 1188px;
+  padding: 0 28px;
+  margin: 0 auto;
 }
 
 .hero-container {
@@ -92,6 +104,8 @@ button {
   background-image: url(../images/dark-bg.png);
   background-image: url(../images/chocolate-covered.jpg);
   background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 72px;
 }
 .container-title {
   width: 100%;
@@ -111,7 +125,8 @@ button {
 .hero-btns {
   display: flex;
   padding-left: 72px;
-  padding-bottom: 46px;
+  padding-bottom: 40px;
+  justify-content: space-between;
 }
 .btn-list {
   display: flex;
@@ -145,13 +160,12 @@ button {
   font-weight: 600;
   color: #fff;
 }
+
+.scroll {
+  display: flex;
+  align-items: center;
+}
 .btn-scroll {
-  font-family: "Montserrat", serif;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.29;
-  letter-spacing: -0.03em;
-  color: #fff;
   width: 78px;
   height: 18px;
   font-family: "Montserrat", serif;
@@ -161,4 +175,53 @@ button {
   letter-spacing: -0.03em;
   color: #fff;
   margin-left: auto;
+}
+.btn-cek {
+  border: 3px solid #fff;
+  padding: 14px;
+  border-radius: 50%;
+  background-color: #fff;
+  background-image: url(../images/cek.png);
+  background-repeat: no-repeat;
+  background-poasition: 50% 50%;
+}
+
+/*benefits*/
+
+.container-benefits {
+  width: 1200px;
+  background-color: #1e1823;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.benefits-list {
+  display: flex;
+  gap: 88px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.benefits-item {
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+.benefits-cart {
+  border: 3px solid #fd9222;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-bottom: 22px;
+}
+.benefits-title {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  padding-bottom: 18px;
+}
+.benefits-text {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+  padding-right: 18px;
 }
