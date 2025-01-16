@@ -26,12 +26,19 @@
     <header class="header">
       <div class="container">
         <nav class="header-nav">
-          <a class="header-link" href="#"
-            ><span class="logo-part">SIMPLY</span> CHOCOLATE
+          <a class="header-link" href="#">
+            <i class="logo-part">SIMPLY</i> "CHOCOLATE"
+            <img
+              class="header-img-icon"
+              src="./images/chocolate (3).svg"
+              alt="555"
+            />
           </a>
 
           <ul class="header-list">
-            <li class="header-item"><a class="item-link" href="">Home</a></li>
+            <li class="header-item">
+              <a class="item-link" href="">Home</a>
+            </li>
             <li class="header-item">
               <a class="item-link" href="#made">How it’s made?</a>
             </li>
@@ -39,8 +46,15 @@
               <a class="item-link" href="#loved">Chocolate is loved</a>
             </li>
           </ul>
+
           <div class="network">
-            <a class="network-link" href="#">
+            <a
+              class="network-link"
+              href="instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Link to instagram"
+            >
               <img
                 class="icon"
                 src="./images/instagram.png"
@@ -48,7 +62,14 @@
                 height="24"
                 alt="instagram"
             /></a>
-            <a class="network-link" href="#">
+            <a
+              class="network-link"
+              href="twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Link to
+              twitter"
+            >
               <img
                 class="icon"
                 src="./images/twitter.png"
@@ -63,12 +84,10 @@
     <main>
       <section class="hero">
         <div class="container hero-container">
-          <div class="container-title">
-            <h1 class="title">
-              Treat yourself or a loved one to our finest ingredients for a
-              moment of pure delight!
-            </h1>
-          </div>
+          <h1 class="title">
+            Treat yourself or a loved one to our finest ingredients for a moment
+            of pure delight!
+          </h1>
 
           <div class="hero-btns">
             <div class="btn-list">
@@ -76,7 +95,7 @@
               <a class="btn-link" href="#made">How it’s made</a>
             </div>
             <div class="scroll">
-              <a class="btn-scroll" href="#benefits">scroll down</a>
+              <a class="btn-scroll" href="#benefits"> scroll down </a>
               <img
                 class="btn-cek"
                 src="./images/cek.png"
@@ -91,11 +110,11 @@
 
       <section class="benefits" id="benefits">
         <div class="container-benefits">
-          <h2 hidden>benefits</h2>
+          <h2 class="visually-hidden">benefits</h2>
           <ul class="benefits-list">
             <li class="benefits-item">
               <img
-                class="benefits-cart"
+                class="benefits-cart-cookie"
                 src="./images/cookie.png"
                 width="28"
                 height="28"
@@ -113,7 +132,7 @@
             </li>
             <li class="benefits-item">
               <img
-                class="benefits-cart"
+                class="benefits-cart-currensy"
                 src="./images/currensy.png"
                 width="28"
                 height="28"
@@ -132,7 +151,7 @@
             </li>
             <li class="benefits-item">
               <img
-                class="benefits-cart"
+                class="benefits-cart-spoon"
                 src="./images/spoon.png"
                 width="28"
                 height="28"
@@ -151,93 +170,194 @@
           </ul>
         </div>
       </section>
-      <section class="ingredients" hidden>
-        <h2>IT ALL ADDS UP TO ONE EXCEPTIONAL <span>TASTE</span> SENSATION</h2>
-        <p>
-          At Simply Chocolate, we believe that the secret to exceptional
-          chocolate is in the details. From the sourcing of the finest
-          ingredients to the careful crafting of each individual piece, every
-          step of our process adds up to one exceptional taste sensation.
-        </p>
-        <ul>
-          <li>
-            <img
-              src="./images/chocolate.png"
-              width="206"
-              height="160"
-              alt="mILK CHOCOLATE"
-            />
-            <h3>mILK CHOCOLATE</h3>
-          </li>
-          <li>
-            <img
-              src="./images/buttle.png"
-              width="206"
-              height="160"
-              alt="Milk"
-            />
-            <h3>Milk</h3>
-          </li>
-          <li>
-            <img
-              src="./images/walnut.png"
-              width="206"
-              height="160"
-              alt="nuts"
-            />
-            <h3>nuts</h3>
-          </li>
-          <li>
-            <img
-              src="./images/coffee-beans.png"
-              width="206"
-              height="160"
-              alt="sEMI - SWEET CHOCOLATE"
-            />
-            <h3>sEMI - SWEET CHOCOLATE</h3>
-          </li>
-        </ul>
+      <section class="ingredients">
+        <div class="container">
+          <div class="box">
+            <h2 class="ingredients-title">
+              IT ALL ADDS UP TO ONE EXCEPTIONAL
+              <span class="ingredients-title-part">TASTE</span> SENSATION
+            </h2>
+            <p class="ingredients-text">
+              At Simply Chocolate, we believe that the secret to exceptional
+              chocolate is in the details. From the sourcing of the finest
+              ingredients to the careful crafting of each individual piece,
+              every step of our process adds up to one exceptional taste
+              sensation.
+            </p>
+          </div>
+
+          <ul class="ingredients-list">
+            <li class="ingredients-item">
+              <div class="wrapper-img">
+                <div class="tuhmb">
+                  <img
+                    class="ingredients-images-milk"
+                    src="./images/chocolate.png"
+                    width="206"
+                    height="160"
+                    alt="mILK CHOCOLATE"
+                  />
+                  <h3 class="ingredients-subtitle">mILK CHOCOLATE</h3>
+                  <div class="over">
+                    <img
+                      class="over-textmilk"
+                      src="./images/textmilk-chocolate.png"
+                      width="270"
+                      height="270"
+                      alt="list"
+                    />
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="ingredients-item">
+              <div class="wrapper-img-buttle">
+                <div class="tuhmb">
+                  <img
+                    class="ingredients-images-buttle"
+                    src="./images/buttle.png"
+                    width="206"
+                    height="160"
+                    alt="Milk"
+                  />
+                  <h3 class="ingredients-subtitle-buttle">Milk</h3>
+                  <div class="over">
+                    <img
+                      class="over-textmilk"
+                      src="./images/textmilk.png"
+                      width="270"
+                      height="270"
+                      alt="list"
+                    />
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="ingredients-item">
+              <div class="wrapper-img-nuts">
+                <div class="tuhmb">
+                  .
+                  <img
+                    class="ingredients-images-nuts"
+                    src="./images/walnut.png"
+                    width="206"
+                    height="160"
+                    alt="nuts"
+                  />
+                  <h3 class="ingredients-subtitle">mILK CHOCOLATE</h3>
+                  <div class="over">
+                    <img
+                      class="over-texnuts"
+                      src="./images/textnuts.png"
+                      width="270"
+                      height="270"
+                      alt="nuts"
+                    />
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="ingredients-item">
+              <div class="wrapper-img-semi">
+                <div class="tuhmb">
+                  <img
+                    class="ingredients-images-coffee"
+                    src="./images/coffee-beans.png"
+                    width="206"
+                    height="160"
+                    alt="sEMI - SWEET CHOCOLATE"
+                  />
+                  <h3 class="ingredients-subtitle-semi">
+                    sEMI - SWEET CHOCOLATE
+                  </h3>
+                  <div class="over">
+                    <img
+                      src="./images/textsemi-sweet chocolate.png"
+                      width="270"
+                      height="270"
+                      alt="semi"
+                    />
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section id="made" hidden>
-        <h2>hOW IT’S made?</h2>
-        <img
-          src="./images/content-picture.png"
-          alt="content picture"
-          width="600"
-          height="400"
-        />
-        <h3>
-          Try our chocolates today and discover the perfect balance of flavor
-        </h3>
-        <ul>
-          <li>
-            <p>
-              Heat the milk in a saucepan without bringing it to a boil. Add
-              sugar and cocoa powder.
-            </p>
-          </li>
-          <li>
-            <p>
-              At the same time, prepare a water bath. Melt the butter on it.
-            </p>
-          </li>
-          <li>
-            <p>
-              "Mix" the milk mixture and already liquid butter. Mix thoroughly
-              with a silicone spatula so that the mass becomes uniform and
-              silky.
-            </p>
-          </li>
-          <li>
-            <p>Heat the mixture over low heat, letting it barely boil.</p>
-          </li>
-          <li>
-            <p>
-              Pour the chocolate into special containers (can be replaced with
-              ice molds). Allow to cool and harden.
-            </p>
-          </li>
-        </ul>
+      <section id="made">
+        <div class="container">
+          <h2 class="made-title">
+            hOW IT’S<span class="made-subtitle">made?</span>
+          </h2>
+          <div class="made-wrapper">
+            <img
+              class="made-images"
+              src="./images/content-picture.png"
+              alt="content picture"
+              width="600"
+              height="400"
+            />
+            <div class="made-box">
+              <h3 class="made-caption">
+                Try our chocolates today and discover the perfect balance of
+                flavor
+              </h3>
+              <ul class="made-list">
+                <li class="made-list-item">
+                  <p class="made-text">
+                    <!-- позиція SVG -->
+                    <svg class="made-icon" x="7px" y="5px" width="8" height="8">
+                      <use href="./images/icons.svg#icon-Ellipse-1-5"></use>
+                    </svg>
+                    <!-- кінец позиціі SVG -->
+                    Heat the milk in a saucepan without bringing it to a boil.
+                    Add sugar and cocoa powder.
+                  </p>
+                </li>
+                <li class="made-list-item">
+                  <p class="made-text">
+                    <svg class="made-icon" width="8" height="8">
+                      <use href="./images/icons.svg#icon-Ellipse-1-5"></use>
+                    </svg>
+
+                    At the same time, prepare a water bath. Melt the butter on
+                    it.
+                  </p>
+                </li>
+                <li cclass="made-list-item">
+                  <p class="made-text">
+                    <svg class="made-icon" width="8" height="8">
+                      <use href="./images/icons.svg#icon-Ellipse-1-5"></use>
+                    </svg>
+                    "Mix" the milk mixture and already liquid butter. Mix
+                    thoroughly with a silicone spatula so that the mass becomes
+                    uniform and silky.
+                  </p>
+                </li>
+                <li cclass="made-list-item">
+                  <p class="made-text">
+                    <svg class="made-icon" width="8" height="8">
+                      <use href="./images/icons.svg#icon-Ellipse-1-5"></use>
+                    </svg>
+                    Heat the mixture over low heat, letting it barely boil.
+                  </p>
+                </li>
+                <li cclass="made-list-item">
+                  <p class="made-text">
+                    <svg class="made-icon" width="8" height="8">
+                      <use href="./images/icons.svg#icon-Ellipse-1-5"></use>
+                    </svg>
+                    Pour the chocolate into special containers (can be replaced
+                    with ice molds). Allow to cool and harden.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </section>
       <section id="loved" hidden>
         <h2>chocolate is loved</h2>
