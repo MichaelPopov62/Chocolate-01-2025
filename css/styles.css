@@ -201,6 +201,7 @@ button {
   padding-bottom: 100px;
 }
 .container-benefits {
+  max-width: 1200px;
   background-color: #1e1823;
   margin-left: auto;
   margin-right: auto;
