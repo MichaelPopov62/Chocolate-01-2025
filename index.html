@@ -28,11 +28,14 @@
         <nav class="header-nav">
           <a class="header-link" href="#">
             <i class="logo-part">SIMPLY</i> "CHOCOLATE"
-            <img
+            <!-- <img
               class="header-img-icon"
-              src="./images/chocolate (3).svg"
-              alt="555"
-            />
+              src="./images/iconstwo.svg#icon-chocolate-5"
+              alt="печіво"
+            /> -->
+            <svg class="header-img-icon" width="24" height="24">
+              <use href="./images/iconstwo.svg#icon-chocolate-5"></use>
+            </svg>
           </a>
 
           <ul class="header-list">
@@ -275,7 +278,7 @@
                   </h3>
                   <div class="over">
                     <img
-                      src="./images/textsemi-sweet chocolate.png"
+                      src="./images/textsemi-sweetchocolate.png"
                       width="270"
                       height="270"
                       alt="semi"
@@ -319,7 +322,7 @@
                 </li>
                 <li class="made-list-item">
                   <p class="made-text">
-                    <svg class="made-icon" width="8" height="8">
+                    <svg class="made-icon" x="7px" y="5px" width="8" height="8">
                       <use href="./images/icons.svg#icon-Ellipse-1-5"></use>
                     </svg>
 
@@ -327,9 +330,9 @@
                     it.
                   </p>
                 </li>
-                <li cclass="made-list-item">
+                <li class="made-list-item">
                   <p class="made-text">
-                    <svg class="made-icon" width="8" height="8">
+                    <svg class="made-icon" x="7px" y="5px" width="8" height="8">
                       <use href="./images/icons.svg#icon-Ellipse-1-5"></use>
                     </svg>
                     "Mix" the milk mixture and already liquid butter. Mix
@@ -337,15 +340,15 @@
                     uniform and silky.
                   </p>
                 </li>
-                <li cclass="made-list-item">
+                <li class="made-list-item">
                   <p class="made-text">
-                    <svg class="made-icon" width="8" height="8">
+                    <svg class="made-icon" x="7px" y="5px" width="8" height="8">
                       <use href="./images/icons.svg#icon-Ellipse-1-5"></use>
                     </svg>
                     Heat the mixture over low heat, letting it barely boil.
                   </p>
                 </li>
-                <li cclass="made-list-item">
+                <li class="made-list-item">
                   <p class="made-text">
                     <svg class="made-icon" width="8" height="8">
                       <use href="./images/icons.svg#icon-Ellipse-1-5"></use>
@@ -424,25 +427,144 @@
         </div>
       </section>
     </main>
-    <footer hidden>
-      <p>Chocolate a delicious cure for a bad day</p>
-      <p>Contact us</p>
-      <address>
-        <ul>
-          <li><a href="tel:+380684439426">+380 (68) 443-94-26</a></li>
-          <li>
-            <a href="mailto:simplycthаoc@gmail.com">simplycthаoc@gmail.com</a>
-          </li>
-        </ul>
-      </address>
-      <hr />
-      <nav>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="#made">How it’s made?</a></li>
-          <li><a href="#loved">Chocolate is loved</a></li>
-        </ul>
-      </nav>
+    <footer class="footer">
+      <div class="container-footer">
+        <div class="inner-footer">
+          <p class="footer-text">
+            <span class="footer-span-text">Chocolate</span> a delicious cure for
+            a bad day
+          </p>
+          <address class="address">
+            <p class="address-title">Contact us</p>
+            <ul class="address-list">
+              <li class="address-item">
+                <a class="address-link" href="tel:+380684439426"
+                  >+380 (68) 443-94-26</a
+                >
+              </li>
+              <li class="address-item">
+                <a class="address-link" href="mailto:simplycthаoc@gmail.com"
+                  >simplycthаoc@gmail.com</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <hr />
+        <div class="menu-inner">
+          <ul class="footer-menu-list">
+            <li class="menu-item"><a class="menu-link" href="">Home</a></li>
+            <li class="menu-item">
+              <a class="menu-link" href="#made">How it’s made?</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="#loved">Chocolate is loved</a>
+            </li>
+          </ul>
+          <form class="footer-form">
+            <input
+              class="input-btn"
+              type="text"
+              autocomplete="on"
+              placeholder="Enter your email"
+            />
+            <input class="submit" type="Submit" />
+          </form>
+        </div>
+      </div>
     </footer>
+
+    <!-- modal window -->
+    <div class="beckdrop">
+      <div class="modal">
+        <button class="modal-button">
+          <svg class="" width="28" height="28">
+            <use href="./images/iconstwo.svg#icon-cross"></use>
+          </svg>
+        </button>
+        <p class="modal-text">
+          LEAVE A REVIEW ABOUT
+          <span class="modal-text-span">OUR CHOCOLATE</span>
+        </p>
+        <form class="modal-form" name="review">
+          <div class="modal-form-field">
+            <label class="user-name" for="user-name">Name </label>
+            <div class="modal-form-wrapper">
+              <input
+                class="persona-input"
+                type="text"
+                name="user-name"
+                id="user-name"
+              />
+              <svg class="modal-form-icon" width="24" height="24">
+                <use href="./images/icons.svg#men-user"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-form-field">
+            <label class="user-name" for="user-Email">Email</label>
+            <div class="modal-form-wrapper">
+              <input
+                class="persona-input"
+                type="Email"
+                name="user-Email"
+                id="user-Email"
+              />
+              <svg class="modal-form-icon" width="24" height="24">
+                <use href="./images/iconstwo.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-form-field">
+            <label class="user-name" for="user-Phone">Phone number</label>
+            <div class="modal-form-wrapper">
+              <input
+                class="persona-input"
+                type="tel"
+                name="user-name"
+                id="user-Phone"
+              />
+              <svg class="modal-form-icon" width="24" height="24">
+                <use href="./images/iconstwo.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-form-field">
+            <label class="user-name" for="user-comment">Comment</label>
+
+            <div>
+              <textarea
+                class="modal-form-massange"
+                name="user-comment"
+                id="user-comment"
+                placeholder="Text input"
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="modal-checkbox">
+            <input
+              class="checkbox"
+              type="checkbox"
+              id="user-privacy"
+              value="true"
+              name="user-privacy"
+            />
+            <label class="comunicat" for="user-privacy">
+              <span class="modal-span-checkbox"
+                ><svg class="comunicativ-icon" width="10" height="8">
+                  <use href="./images/iconstwo.svg#icon-check"></use>
+                </svg>
+              </span>
+              <i class="comunicativ-text"
+                >I accept the terms and conditions of the
+                <a class="privacy-text"> Privacy Policy</a>
+              </i>
+            </label>
+          </div>
+          <button class="button" type="button">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
