@@ -2,7 +2,7 @@
 
 /*reset*/
 body {
-  font-family: "Montserrat", serif;
+  font-family: 'Montserrat', serif;
   background-color: #fff;
 }
 h1,
@@ -11,7 +11,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", serif;
+  font-family: 'Montserrat', serif;
   margin: 0;
 }
 a,
@@ -283,7 +283,7 @@ input {
 }
 
 .benefits-item::after {
-  content: "";
+  content: '';
   border: 1px solid rgba(255, 255, 255, 0.5);
   width: 124px;
   height: 0px;
@@ -810,7 +810,8 @@ input::placeholder {
 
 .modal-form-icon {
   position: absolute;
-  top: 22px;
+  top: 50%;
+  transform: translateY(-50%);
   left: 24px;
   transition: 300ms, ease-in;
   transition-property: fill;
@@ -835,6 +836,7 @@ input::placeholder {
   letter-spacing: -0.02em;
   transition: 300ms ease-in;
   transition-property: border-color;
+  resize: none;
 }
 .modal-form-massange::placeholder {
   color: rgba(64, 64, 64, 0.3);
@@ -899,7 +901,7 @@ input::placeholder {
   fill: #f4f4fd;
 }
 
-.button {
+.submit {
   border-radius: 100px;
   padding: 14px 40px;
   width: 117px;
