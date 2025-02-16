@@ -815,6 +815,7 @@ input::placeholder {
   left: 24px;
   transition: 300ms, ease-in;
   transition-property: fill;
+  fill: #111;
 }
 .persona-input:focus + .modal-form-icon {
   fill: #fd9222;
@@ -909,4 +910,6 @@ input::placeholder {
   background-color: #fd9222;
   color: #fff;
   margin-left: 40px;
+  outline: transparent;
+  border: none;
 }
